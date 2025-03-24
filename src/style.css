@@ -1,5 +1,63 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+    font-family: Arial, sans-serif;
+    background: #006400;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .container {
+    display: inline-block;
+  }
+  
+  .card {
+    width: 120px;
+    height: 180px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background: #fff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 1.5em;
+  }
+  
+  .card .top {
+    font-size: 1.2em;
+    text-align: left;
+  }
+  
+  .card .bottom {
+    font-size: 1.2em;
+    text-align: right;
+  }
+  
+  .card .center {
+    font-size: 2.5em;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  .controls label {
+    margin: 0 10px;
 
-body{
-    background: white;
-}
+  }
+  .controls label strong {
+    color:whitesmoke
+  }
+  
+  .controls input[type="text"] {
+    width: 80px;
+    margin-left: 5px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+  }
+  
