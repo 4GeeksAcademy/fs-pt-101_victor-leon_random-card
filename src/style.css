@@ -30,7 +30,8 @@ body {
   
   .card .bottom {
     font-size: 1.2em;
-    text-align: right;
+    text-align: left;
+    transform: rotate(180deg);
   }
   
   .card .center {
